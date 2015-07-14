@@ -8,3 +8,6 @@ D:\Projekty\MeowEff\MeowEff\MeowEff\obj\Debug\MeowEff.csproj.GenerateResource.Ca
 D:\Projekty\MeowEff\MeowEff\MeowEff\obj\Debug\MeowEff.exe
 D:\Projekty\MeowEff\MeowEff\MeowEff\obj\Debug\MeowEff.pdb
 D:\Projekty\MeowEff\MeowEff\MeowEff\obj\Debug\MeowEff.InfoForm.resources
+C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\bin\Debug\MeowEff.exe.config
+C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\obj\Debug\MeowEff.exe
+C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\obj\Debug\MeowEff.pdb
