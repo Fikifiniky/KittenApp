@@ -1,0 +1,10 @@
+D:\Projekty\MeowEff\MeowEff\MeowEff\bin\Debug\MeowEff.exe.config
+D:\Projekty\MeowEff\MeowEff\MeowEff\bin\Debug\MeowEff.exe
+D:\Projekty\MeowEff\MeowEff\MeowEff\bin\Debug\MeowEff.pdb
+D:\Projekty\MeowEff\MeowEff\MeowEff\obj\Debug\MeowEff.csprojResolveAssemblyReference.cache
+D:\Projekty\MeowEff\MeowEff\MeowEff\obj\Debug\MeowEff.Meow.resources
+D:\Projekty\MeowEff\MeowEff\MeowEff\obj\Debug\MeowEff.Properties.Resources.resources
+D:\Projekty\MeowEff\MeowEff\MeowEff\obj\Debug\MeowEff.csproj.GenerateResource.Cache
+D:\Projekty\MeowEff\MeowEff\MeowEff\obj\Debug\MeowEff.exe
+D:\Projekty\MeowEff\MeowEff\MeowEff\obj\Debug\MeowEff.pdb
+D:\Projekty\MeowEff\MeowEff\MeowEff\obj\Debug\MeowEff.InfoForm.resources
