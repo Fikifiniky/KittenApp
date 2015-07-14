@@ -11,3 +11,10 @@ D:\Projekty\MeowEff\MeowEff\MeowEff\obj\Debug\MeowEff.InfoForm.resources
 C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\bin\Debug\MeowEff.exe.config
 C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\obj\Debug\MeowEff.exe
 C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\obj\Debug\MeowEff.pdb
+C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\bin\Debug\MeowEff.exe
+C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\bin\Debug\MeowEff.pdb
+C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\obj\Debug\MeowEff.csprojResolveAssemblyReference.cache
+C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\obj\Debug\MeowEff.Meow.resources
+C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\obj\Debug\MeowEff.InfoForm.resources
+C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\obj\Debug\MeowEff.Properties.Resources.resources
+C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\obj\Debug\MeowEff.csproj.GenerateResource.Cache

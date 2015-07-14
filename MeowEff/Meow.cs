@@ -64,25 +64,32 @@ namespace MeowEff
 
         private void btnPotvrdit_Click(object sender, EventArgs e)
         {
-            if (tbInterval.Text == String.Empty)
+            try
             {
-                MessageBox.Show("Zadej interval");
-            }
-            else if (int.Parse(tbInterval.Text) <= 7)
-            {
-                MessageBox.Show("Interval musí být VÍCE, než 7 sekund");
-                tbInterval.Text = String.Empty;
-            }
-            else
-            {
-                int secinterval = int.Parse(tbInterval.Text);
-                int interval = secinterval * 1000;
+
+                if (tbInterval.Text == String.Empty)
+                {
+                    throw new Exception("Zadej interval");
+                }
+                if (int.Parse(tbInterval.Text) <= 7)
+                {
+                    throw new Exception("Interval musí být VÍCE, než 7 sekund");
+                }
+
+                int interval = int.Parse(tbInterval.Text) * 1000; // precte a prevede na milisekundy
+
                 timer1.Interval = interval;
-                btnInstaMeow.Enabled = true;
+
+                btnInstaMeow.Enabled = true; // povoli tlacitka
                 btnMeowStart.Enabled = true;
                 btnMeowStop.Enabled = true;
-                lbAktualniInt.Text = "Aktuální interval: " + secinterval + " sekund";
 
+                lbAktualniInt.Text = string.Format("Aktuální interval: {0} sekund", interval / 1000); // vypise info o intervalu
+            }
+            
+            catch (Exception exception) {
+                MessageBox.Show(exception.Message);
+                tbInterval.Text = String.Empty;
             }
         }
 
