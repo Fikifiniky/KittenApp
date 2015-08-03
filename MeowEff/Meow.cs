@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using System.Diagnostics;
 
 namespace MeowEff
 {
@@ -17,12 +18,15 @@ namespace MeowEff
         public Meow()
         {
             InitializeComponent();
-            btnNapoveda.BackgroundImage = Properties.Resources.btnNapoveda_ico;
-            label1.BackColor = Color.Transparent;
+            btnNapoveda.BackgroundImage = Properties.Resources.btnNapoveda_ico;     //ikona
+            label1.BackColor = Color.Transparent;   //pozdai lb (nevim ktereho a k cemu vubec je)
             lbAktualniInt.BackColor = Color.Transparent;
-            btnMeowStart.Enabled = false;
+            btnMeowStart.Enabled = false; //nasledujici tri radky vypinaji tlacitka, jelikoz jsem linej je vypnout defaultne v jejich properties
             btnInstaMeow.Enabled = false;
             btnMeowStop.Enabled = false;
+            this.KeyDown += new KeyEventHandler(Press); //vytvori udalost pri zmacknuti klavesy
+            //this.KeyUp += new KeyEventHandler(Release); //vytvori udalost pri odmacknuti klavesy
+            this.KeyPreview = true;
 
         }
 
@@ -67,11 +71,11 @@ namespace MeowEff
             try
             {
 
-                if (tbInterval.Text == String.Empty)
+                if (tbInterval.Text == String.Empty) // kontrola blbosti uzviatele
                 {
                     throw new Exception("Zadej interval");
                 }
-                if (int.Parse(tbInterval.Text) <= 7)
+                if (int.Parse(tbInterval.Text) <= 7) //schvalne, kolik lidi se dokaze nachytat na slova "VÍCE" a "NEŽ"
                 {
                     throw new Exception("Interval musí být VÍCE, než 7 sekund");
                 }
@@ -84,10 +88,11 @@ namespace MeowEff
                 btnMeowStart.Enabled = true;
                 btnMeowStop.Enabled = true;
 
-                lbAktualniInt.Text = string.Format("Aktuální interval: {0} sekund", interval / 1000); // vypise info o intervalu
+                lbAktualniInt.Text = string.Format("Aktuální interval: {0} sekund", interval / 1000); // vypise info o intervalu   PS. String Format je moc mainstream
             }
             
-            catch (Exception exception) {
+            catch (Exception exception) //chyba
+            {
                 MessageBox.Show(exception.Message);
                 tbInterval.Text = String.Empty;
             }
@@ -97,6 +102,24 @@ namespace MeowEff
         {
             InfoForm info = new InfoForm();
             info.Show();
+        }
+        private void Press(object sender, KeyEventArgs e) //keydown metoda
+        {
+            switch (e.KeyCode) //toto snad neni potreba komentovat
+            {
+                case Keys.F1:
+                    Process.Start("http://knowyourmeme.com/memes/i-should-buy-a-boat-cat");
+                    break;
+                case Keys.F2:
+                    Process.Start("http://www.wikihow.com/Take-Care-of-Kittens");
+                    break;
+                case Keys.F3:
+                    Process.Start("https://www.reddit.com/r/cute/");
+                    break;
+                case Keys.Escape:
+                    this.Close();
+                    break;
+            }
         }
     }
 }

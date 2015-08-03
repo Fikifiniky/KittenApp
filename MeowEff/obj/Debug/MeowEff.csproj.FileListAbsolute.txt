@@ -18,3 +18,13 @@ C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\obj\Debug\MeowEff.Meow.resourc
 C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\obj\Debug\MeowEff.InfoForm.resources
 C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\obj\Debug\MeowEff.Properties.Resources.resources
 C:\Users\Matej\Documents\GitHub\KittenApp\MeowEff\obj\Debug\MeowEff.csproj.GenerateResource.Cache
+C:\Users\Jan\Desktop\C# meow\MeowEff\bin\Debug\MeowEff.exe.config
+C:\Users\Jan\Desktop\C# meow\MeowEff\obj\Debug\MeowEff.exe
+C:\Users\Jan\Desktop\C# meow\MeowEff\obj\Debug\MeowEff.pdb
+C:\Users\Jan\Desktop\C# meow\MeowEff\bin\Debug\MeowEff.exe
+C:\Users\Jan\Desktop\C# meow\MeowEff\bin\Debug\MeowEff.pdb
+C:\Users\Jan\Desktop\C# meow\MeowEff\obj\Debug\MeowEff.csprojResolveAssemblyReference.cache
+C:\Users\Jan\Desktop\C# meow\MeowEff\obj\Debug\MeowEff.Meow.resources
+C:\Users\Jan\Desktop\C# meow\MeowEff\obj\Debug\MeowEff.InfoForm.resources
+C:\Users\Jan\Desktop\C# meow\MeowEff\obj\Debug\MeowEff.Properties.Resources.resources
+C:\Users\Jan\Desktop\C# meow\MeowEff\obj\Debug\MeowEff.csproj.GenerateResource.Cache
