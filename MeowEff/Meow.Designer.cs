@@ -40,6 +40,7 @@
             this.lbAktualniInt = new System.Windows.Forms.Label();
             this.lbDalsi = new System.Windows.Forms.Label();
             this.btnNapoveda = new System.Windows.Forms.Button();
+            this.btnInsert = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnInstaMeow
@@ -129,6 +130,16 @@
             this.btnNapoveda.UseVisualStyleBackColor = true;
             this.btnNapoveda.Click += new System.EventHandler(this.btnNapoveda_Click);
             // 
+            // btnInsert
+            // 
+            this.btnInsert.Location = new System.Drawing.Point(188, 45);
+            this.btnInsert.Name = "btnInsert";
+            this.btnInsert.Size = new System.Drawing.Size(75, 23);
+            this.btnInsert.TabIndex = 9;
+            this.btnInsert.Text = "Odebírat";
+            this.btnInsert.UseVisualStyleBackColor = true;
+            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
+            // 
             // Meow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -136,6 +147,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(269, 262);
+            this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.btnNapoveda);
             this.Controls.Add(this.lbDalsi);
             this.Controls.Add(this.lbAktualniInt);
@@ -167,6 +179,7 @@
         private System.Windows.Forms.Label lbAktualniInt;
         private System.Windows.Forms.Label lbDalsi;
         private System.Windows.Forms.Button btnNapoveda;
+        private System.Windows.Forms.Button btnInsert;
     }
 }
 
